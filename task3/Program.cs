@@ -8,7 +8,7 @@
 */
 
 
-// Получает целое положительно число от пользователя
+// Получает целое число от пользователя
 int GetNumber(string message, bool notNull = true, bool notNegative = true, bool lowestValueExists = false, int lowestValue = 0)
 {
     bool isCorrect = false;
